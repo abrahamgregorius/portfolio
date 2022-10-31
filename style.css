@@ -2,5 +2,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(45, 176, 141);
+    flex-direction: row;
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.navbar-logo h1 {
+    font-weight: 600;
+}
+
+.navbar-logo h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+}
+
+.navbar-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.navbar-menu ul li {
+    list-style: none;
+    font-weight: 400;
+}
+
+.navbar-menu ul li a {
+    text-decoration: none;
+    color: black;
+}
